@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="assets/css/app.css" />
+        <link rel="stylesheet" href="assets/css/account.css" />
+        <link rel="stylesheet" href="assets/css/theme.css" />
+        <meta name="theme-color" content="#1c1e1f" />
+        
+        
+        <title>Document</title>
+    </head>
+    
+    <body class="dark">
+        <nav>
+            <section>
+                <div class="logo">MOVIE<b>Night</b></div>
+            </section>
+            
+            <section id="main-menu">
+                <button id="closeMenu">x</button>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movieDetails.html">Movies</a></li>
+                    <li><a href="mytickets.html">My Tickets</a></li>
+                    <li><a class="login" href="login.html">Login</a></li>
+                </ul>
+            </section>
+            <section style="text-align: right;">
+                    <div class="menu-nav" id="menuNav">
+                        <hr />
+                        <hr />
+                        <hr />
+                    </div>
+                </section>
+            </nav>
+            
+            <div id="mainContainner">
+                <!-- the contents goes here bra -->
+                <div class="user-containner">
+            <div class="user-info">
+                <section class="profile">
+                    <img src="assets/uploads/users/profile/user.svg" alt="">
+                </section>
+                <section class="user-info-section">
+                    <h2>Username</h2>
+                    <h3>janviermuhawenimana janvier</h3>
+                    <section class="buttons-containner-user">
+                        <button>Edit profile</button>
+                        <button class="logout">Logout</button>
+                    </section>
+                </section>
+            </div>
+            
+        </div>
+        
+        
+        <div id="users-contents-containner">
+            <section class="controlls">
+                <button>My Tickets</button>
+                <button class="active">My Payments</button>
+            </section>
+            <div id="contents-containner-details">
+                <div id="tickets-containners">
+                    <h1 class="section-title">MY TICKET</h1>
+                    <div id="tickets">
+                        <div class="ticket">
+                            <section>
+                                <img src="assets/images/qr-code-icon.svg" style="width: 100%;" alt="">
+                            </section>
+                            <section>
+                                <h3>Movie titile</h3>
+                                <h4>Date: 12/23/2020 12:12</h4>
+                            </section>
+                            <section>
+                                    <h6>Room Name</h6>
+                                    <h5>12</h5>
+                            </section>
+                        </div>
+                            
+              
+                        <div class="ticket">
+                                <section>
+                                    <img src="assets/images/qr-code-icon.svg" style="width: 100%;" alt="">
+                                </section>
+                                <section>
+                                    <h3>Movie titile</h3>
+                                    <h4>Date: 12/23/2020 12:12</h4>
+                                </section>
+                                <section>
+                                        <h6>Room Name</h6>
+                                        <h5>12</h5>
+                                </section>
+                            </div>
+
+
+
+
+                            <div class="ticket">
+                                    <section>
+                                        <img src="assets/images/qr-code-icon.svg" style="width: 100%;" alt="">
+                                    </section>
+                                    <section>
+                                        <h3>Movie titile</h3>
+                                        <h4>Date: 12/23/2020 12:12</h4>
+                                    </section>
+                                    <section>
+                                            <h6>Room Name</h6>
+                                            <h5>12</h5>
+                                    </section>
+                                </div>
+                    </div>
+                </div>
+                <div id="payments-containners" class="hide">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ullam, saepe sapiente praesentium, sunt repellendus blanditiis porro quaerat in nesciunt nostrum? Accusamus deserunt provident quia non nesciunt fugiat quae distinctio!
+                </div>
+                
+            </div>
+        </div>
+        
+        
+            
+            
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+
+<script src="assets/js/dom.js"></script>
+<script src="assets/js/http.js"></script>
+<script src="assets/js/route.js"></script>
+<script src="assets/js/index.js"></script>
+
+<script>
+      var url = new URL(window.location.href);
+      // const url = new URL("../cats", "http://www.example.com/dogs");
+      console.log(url.hostname); // "www.example.com"
+      console.log(url.pathname); // "/cats"
+      console.log(url.searchParams.get("id")); // "123"
+    </script>
+  </body>
+  </html>
+  

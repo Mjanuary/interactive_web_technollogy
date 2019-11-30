@@ -1,0 +1,149 @@
+.user-containner {
+  width: 90%;
+  border: 2px solid #a27a02;
+  margin: auto;
+  margin-top: 104px;
+  max-width: 900px;
+  padding: 12px 18px 7px 20px;
+  border-radius: 13px;
+}
+
+.user-containner .user-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 131px 1fr;
+      grid-template-columns: 131px 1fr;
+  grid-gap: 10px;
+}
+
+.user-containner .user-info section img {
+  width: 100%;
+  background: #b1b100;
+  border-radius: 9000px;
+}
+
+.user-containner .user-info h2 {
+  font-size: 36px;
+}
+
+.user-containner .user-info h3 {
+  font-weight: normal;
+  margin-bottom: 13px;
+}
+
+.user-containner .user-info-section {
+  padding-left: 21px;
+}
+
+.user-containner .buttons-containner-user button {
+  background: transparent;
+  background: forestgreen;
+  font-size: 18px;
+  padding: 6px 23px;
+  border: 0;
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #fff;
+}
+
+.user-containner .logout {
+  background: orangered !important;
+}
+
+#users-contents-containner {
+  width: 90%;
+  /* border: 2px solid #a27a02; */
+  margin: auto;
+  margin-top: 20px;
+  max-width: 900px;
+  /* padding: 12px 18px 7px 20px; */
+  /* border-radius: 13px;*/
+}
+
+#users-contents-containner .controlls {
+  margin-left: 14px;
+}
+
+#users-contents-containner .controlls button {
+  padding: 13px 20px 8px 20px;
+  font-size: 20px;
+  border: 2px solid #ff9800;
+  border-radius: 14px 14px 0px 0px;
+  background: #774700;
+  border-bottom: 5px;
+  margin-bottom: -2px;
+}
+
+#users-contents-containner .controlls button.active {
+  background: transparent;
+  color: #ff9800;
+  border-bottom: 4px solid #151517;
+  margin-bottom: -3px;
+}
+
+#users-contents-containner #contents-containner-details {
+  border: 2px solid #FF9800;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.ticket {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 3fr 1fr;
+      grid-template-columns: 100px 3fr 1fr;
+  grid-gap: 3%;
+  background: #333;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+
+.ticket h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-top: 6px;
+}
+
+.ticket h4 {
+  color: darkturquoise;
+  font-size: 1.1rem;
+}
+
+.ticket h5 {
+  margin: auto;
+  text-align: center;
+  border: 3px solid chartreuse;
+  font-size: 3rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.1rem 1rem;
+  color: chartreuse;
+  margin-top: 4px;
+  border-radius: 8px;
+}
+
+.ticket h6 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  color: coral;
+  margin-top: 6px;
+}
+
+h1.section-title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ff9800;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/*# sourceMappingURL=account.css.map */

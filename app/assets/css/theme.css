@@ -1,0 +1,42 @@
+body.dark {
+  background: #151517;
+  color: #fff;
+}
+
+body.dark .section-titile {
+  border-bottom: 2px solid #fffc00;
+  color: yellow;
+}
+
+body.dark .section-titile h2 {
+  background: #151517;
+}
+
+body.dark nav {
+  background: #1c1e1f;
+  -webkit-box-shadow: 1px 1px 10px #000000ad;
+          box-shadow: 1px 1px 10px #000000ad;
+}
+
+body.dark nav #main-menu ul li a {
+  color: #d5d5d5;
+  border-bottom: 5px solid transparent;
+}
+
+body.dark nav #main-menu ul li a:hover {
+  color: #151517;
+  border-color: #1c1e1f;
+}
+
+body.dark .hero-div .contents .typography h4 {
+  color: #00bcd4;
+  border: 2px solid #00bcd4;
+  -webkit-box-shadow: 1px 1px 5px 3px #000;
+          box-shadow: 1px 1px 5px 3px #000;
+  background: #00000052;
+}
+
+body.dark .hero-div .contents .typography button {
+  border: 2px solid yellow;
+}
+/*# sourceMappingURL=theme.css.map */

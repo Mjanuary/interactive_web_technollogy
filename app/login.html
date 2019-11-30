@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+    <meta name="theme-color" content="#1c1e1f" />
+    <title>Document</title>
+  </head>
+
+  <body class="dark">
+    <nav>
+      <section>
+        <div class="logo">MOVIE<b>Night</b></div>
+      </section>
+
+      <section id="main-menu">
+        <button id="closeMenu">x</button>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movieDetails.html">Movies</a></li>
+          <!-- <li><a href="mytickets.html">My Tickets</a></li> -->
+          <li><a class="login" href="login.html">Login</a></li>
+        </ul>
+      </section>
+      <section style="text-align: right;">
+        <div class="menu-nav" id="menuNav">
+          <hr />
+          <hr />
+          <hr />
+        </div>
+      </section>
+    </nav>
+
+    <div id="mainContainner">
+    
+      <div class="login-containner">
+          <div class="image-section">
+    
+            </div>
+            
+            <div class="form-section">
+              <form action="">
+                <h2>Login</h2>
+                <section>
+                  <label for="">Username</label>
+                  <input type="text" name="" class="input-text">
+                </section>
+                
+                <section>
+                  <label for="">Password</label>
+                  <input type="password" name="" class="input-text">
+                </section>
+                
+                <section>
+                  <button>Login</button>                                
+                  <a href="register.html">Register an account</a>                                
+                </section>
+              </form>
+            </div>
+          </div>
+          
+
+    </div>
+
+<style>
+body {background-color: #2d0107;}
+</style>
+
+    <script src="assets/js/dom.js"></script>
+    <script src="assets/js/http.js"></script>
+    <script src="assets/js/route.js"></script>
+    <script src="assets/js/index.js"></script>
+
+    <script>
+      var url = new URL(window.location.href);
+      // const url = new URL("../cats", "http://www.example.com/dogs");
+      console.log(url.hostname); // "www.example.com"
+      console.log(url.pathname); // "/cats"
+      console.log(url.searchParams.get("id")); // "123"
+    </script>
+  </body>
+</html>

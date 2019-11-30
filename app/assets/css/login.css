@@ -1,0 +1,140 @@
+.login-containner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2d0107;
+}
+
+.login-containner .image-section {
+  height: 100vh;
+  background: #67000e;
+  background-image: url(../images/chairs-bg.webp);
+  background-size: cover;
+}
+
+.login-containner .form-section {
+  padding-top: 20vh;
+  background: #333;
+}
+
+.login-containner .form-section form {
+  max-width: 461px;
+  width: 80%;
+  margin: auto;
+}
+
+.login-containner .form-section form h2 {
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 22px;
+  font-weight: normal;
+  color: #fff;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  background: #790111;
+  margin-bottom: 44px;
+}
+
+.login-containner .form-section form section {
+  padding-top: 8px;
+  margin-bottom: 22px;
+}
+
+.login-containner .form-section form section label {
+  display: block;
+  color: yellow;
+}
+
+.login-containner .form-section form section .input-text {
+  border: none;
+  border-bottom: 3px solid yellow;
+  background: transparent;
+  color: white;
+  width: 100%;
+  font-size: 26px;
+  padding: 13px;
+}
+
+.login-containner .form-section form section button {
+  display: block;
+  padding: 12px 50px;
+  font-size: 23px;
+  border: none;
+  background: yellow;
+  font-weight: bold;
+  margin-top: 15px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.login-containner .form-section form section button:hover {
+  background: #c3c303;
+}
+
+.login-containner .form-section form section a {
+  display: inline-block;
+  padding: 15px 24px 6px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.login-containner .form-section form section a:hover {
+  color: yellow;
+}
+
+@media only screen and (max-width: 679px) {
+  .login-containner {
+    display: block;
+  }
+  .form-section {
+    position: absolute !important;
+    top: 19px !important;
+    right: 0 !important;
+    left: 0 !important;
+    bottom: 0px !important;
+    width: 80% !important;
+    margin: auto !important;
+    padding-top: 11px !important;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    padding-bottom: 0px !important;
+    border-radius: 11px !important;
+    background: #000000d9 !important;
+    border: 2px solid #9E9E9E;
+    margin-top: 66px !important;
+  }
+  .form-section h2 {
+    margin-bottom: 22px;
+    padding-bottom: 15px;
+    background: #790111;
+    margin-bottom: 44px;
+    font-size: 31px !important;
+    padding: 8px;
+    margin-top: -11px;
+    margin-bottom: 23px !important;
+  }
+  .login-containner .form-section form section .input-text {
+    padding: 3px;
+    font-size: 20px;
+  }
+  .login-containner .form-section form section label {
+    font-size: 12px;
+  }
+  .login-containner .form-section form section button {
+    padding: 9px 36px;
+    font-size: 23px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .login-containner .form-section form section a {
+    font-size: 15px;
+    padding-left: 0px;
+    display: block;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=login.css.map */
